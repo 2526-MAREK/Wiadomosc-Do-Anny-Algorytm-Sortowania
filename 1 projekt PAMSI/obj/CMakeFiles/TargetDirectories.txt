@@ -1,0 +1,3 @@
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/obj/CMakeFiles/rebuild_cache.dir
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/obj/CMakeFiles/edit_cache.dir
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/obj/CMakeFiles/WIADOMOSC_DO_ANI.dir

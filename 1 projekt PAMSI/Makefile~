@@ -1,0 +1,50 @@
+TASKNO=5
+APP=wiadomosc_do_ani
+TASKDIR=${HOME}/edu/po/zad/z${TASKNO}
+
+#
+#  To sa opcje dla kompilacji
+#
+CXXFLAGS=-g -Iinc -W -Wall -pedantic -std=c++17 
+
+__start__: obj dat ./${APP}
+	rm -f core.* core; ./${APP}
+
+# Tworzy katalog "obj" gdy go nie ma
+# 
+obj:
+	mkdir obj
+
+dat:
+	mkdir dat
+
+./${APP}: obj/main.o obj/priority_queue.o obj/package.o
+	g++ -o ./${APP} obj/main.o obj/priority_queue.o obj/package.o
+
+
+ext: ./${APP}_rozszerzony
+	rm -f core.* core; echo "2i 1+3.1i 2 ? / + ?" | ./${APP}_rozszerzony
+
+obj/main.o: src/main.cpp inc/priority_queue.hh
+obj/priority_queue.o: src/priority_queue.cpp inc/priority_queue.hh inc/package.hh
+obj/package.o: src/package.cpp inc/package.hh 
+
+clean:
+	rm -f obj/* ./${APP} core.* core
+
+${TASKDIR}:
+	mkdir -p ${TASKDIR}/bin.diablo ${TASKDIR}/bin.panamint
+
+__TARGET__:
+	if [ ! "${HOST}" = "diablo" ] && [ ! "${HOST}" = "panamint" ]; then exit 1; fi
+
+export: __TARGET__ ./${APP}  ./${APP}_rozszerzony ${TASKDIR}
+	mv ${APP} ${APP}_rozszerzony ${HOME}/edu/po/zad/z${TASKNO}/bin.${HOST}/
+
+help:
+	@echo
+	@echo " make        - tworzenie i uruchomienie aplikacji"
+	@echo " make ext    - tworzenie i uruchomienie aplikacji w wersji rozszerzonej"
+	@echo " make clean  - usuniecie produktow kompilacji i konsolidacji"
+	@echo " make help   - wyswietla niniejsza informacje"
+	@echo

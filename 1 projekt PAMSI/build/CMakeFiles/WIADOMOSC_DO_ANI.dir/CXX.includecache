@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Message.hh
+priority_queue.hh
+../inc/priority_queue.hh
+
+../inc/element_of_priority_queue.hh
+package.hh
+../inc/package.hh
+
+../inc/package.hh
+string
+-
+iostream
+-
+iomanip
+-
+ctime
+-
+cstdlib
+-
+time.h
+-
+
+../inc/priority_queue.hh
+element_of_priority_queue.hh
+../inc/element_of_priority_queue.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.cpp
+Message.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/element_of_priority_queue.cpp
+element_of_priority_queue.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/element_of_priority_queue.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/main.cpp
+priority_queue.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/priority_queue.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/priority_queue.cpp
+priority_queue.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/priority_queue.hh
+

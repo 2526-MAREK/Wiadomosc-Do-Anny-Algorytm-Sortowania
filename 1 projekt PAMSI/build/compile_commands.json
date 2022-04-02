@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/inc\"  -g   -o CMakeFiles/WIADOMOSC_DO_ANI.dir/src/Message.cpp.o -c \"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.cpp\"",
+  "file": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.cpp"
+},
+{
+  "directory": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/inc\"  -g   -o CMakeFiles/WIADOMOSC_DO_ANI.dir/src/element_of_priority_queue.cpp.o -c \"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/element_of_priority_queue.cpp\"",
+  "file": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/element_of_priority_queue.cpp"
+},
+{
+  "directory": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/inc\"  -g   -o CMakeFiles/WIADOMOSC_DO_ANI.dir/src/main.cpp.o -c \"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/main.cpp\"",
+  "file": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/main.cpp"
+},
+{
+  "directory": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/inc\"  -g   -o CMakeFiles/WIADOMOSC_DO_ANI.dir/src/priority_queue.cpp.o -c \"/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/priority_queue.cpp\"",
+  "file": "/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/priority_queue.cpp"
+}
+]

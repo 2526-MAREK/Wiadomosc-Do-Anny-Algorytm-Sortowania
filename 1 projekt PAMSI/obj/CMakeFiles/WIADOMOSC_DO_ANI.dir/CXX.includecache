@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Anna.hh
+string
+-
+iostream
+-
+
+../inc/Annas_Computer.hh
+Message.hh
+../inc/Message.hh
+
+../inc/Jan.hh
+iostream
+-
+string
+-
+
+../inc/Message.hh
+priority_queue.hh
+../inc/priority_queue.hh
+algorithm
+-
+random
+-
+
+../inc/element_of_priority_queue.hh
+package.hh
+../inc/package.hh
+
+../inc/network.hh
+Jan.hh
+../inc/Jan.hh
+Anna.hh
+../inc/Anna.hh
+Annas_Computer.hh
+../inc/Annas_Computer.hh
+chrono
+-
+ctime
+-
+fstream
+-
+
+../inc/package.hh
+string
+-
+iostream
+-
+iomanip
+-
+ctime
+-
+cstdlib
+-
+time.h
+-
+
+../inc/priority_queue.hh
+element_of_priority_queue.hh
+../inc/element_of_priority_queue.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Annas_Computer.cpp
+Annas_Computer.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Annas_Computer.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Jan.cpp
+Jan.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Jan.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.cpp
+Message.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/Message.hh
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/main.cpp
+network.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/network.hh
+fstream
+-
+
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/network.cpp
+network.hh
+/home/marek/Pulpit/1 projekt PAMSI /Wiadomosc_Do_Anny_Algorytm_Sortowania-main/Wiadomosc_Do_Anny_Algorytm_Sortowania-main/1 projekt PAMS/src/network.hh
+
